@@ -14,7 +14,7 @@ are listed.
 
 The lemma form adopted for the list has been chosen after comparing
 alternatives listed in Strong’s Dictionary, [Liddell & Scott][2],
-[MorhGNT][3] and [Abbott-Smith][4].  Other forms in the word list use
+[MorphGNT][3] and [Abbott-Smith][4].  Other forms in the word list use
 the "v" field to reference the primary lemma.  See below.
 
 ###	strong
@@ -40,7 +40,8 @@ The part of speech is listed using Packard parts of speech:
 ###	src
 
 The source(s) the word is derived from are listed, mainly for New
-Testament words.
+Testament words.  Some words have been added to the Greek Word List,
+for use as sources, when they don’t otherwise appear in scripture.
 
 ###	def
 
@@ -70,7 +71,7 @@ Should the lookup fail, you can use the Perseus search, with
 
 	'http://www.perseus.tufts.edu/hopper/resolveform?type=exact&lookup=' + encodeURIComponent(word) + '&lang=greek'
 
-where word is the same text, or the betacode form of the lemma, when
+where `word` is the same text, or the betacode form of the lemma, when
 there is no "l" or "m" field.
 
 ###	m
@@ -85,7 +86,7 @@ is no LSJ listing.  These can be accessed at
 There are additional files mapping the lemmas of the [MorphGNT][3] to
 the Greek Word List, and the word list to the keys of [Abbott-Smith][4].
 
-May 31, 2016
+August 15, 2016
 
 [1]: http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/
 [2]: http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.04.0057
