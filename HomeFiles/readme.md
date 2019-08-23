@@ -13,7 +13,7 @@ List. Basic instructions are given on the page:
 
 -	Links labeled Perseus: will open Perseus to that word.
 
-This should cover mst ordinary situations. If you enter a word that is
+This should cover most ordinary situations. If you enter a word that is
 not in the word list, the selection list will show the closest word
 before it and the next 9 entries after that. You can click on the
 closest match.
@@ -28,7 +28,7 @@ When you type them into the text box, the app will convert the letters
 into Greek.
 
 The Back and Forward buttons are connected to a history of the entries
-you have already chosen. When it reaches the end of the histoory, it
+you have already chosen. When it reaches the end of the history, it
 will just choose the previous or next entry in the word list. Sometimes
 the history will get caught in a loop and get stuck. If that becomes
 annoying, simply refresh the page and start over.
