@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Greek Word List</title>
+        <link rel="stylesheet" href="Styles/LexiconStyle.css" />
+        <link rel="shortcut icon" href="Images/Greek.ico" />
+    </head>
+    <body>
+        <header>
+			<h1>Greek Word List</h1>
+		</header>
+		<nav>
+			<label for="index">ID</label>
+			<input type="text" id="index" />
+			<button id="back" type="button" title="Back">◀</button>
+			<button id="fore" type="button" title="Forward">▶</button>
+            <span id="link"><a href="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.04.0057" target="_blank">Perseus</a></span>
+		</nav>
+		<section id="entry">
+			<p>Enter a word list ID or Strong number.<br />
+			<ul class="sub">
+				<li>Word list IDs are unaccented Greek words.</li>
+				<li>You can type them in the text box, using the key map pictured below.</li>
+				<li>When the word you want appears in the list, you can click it.</li>
+				<li>Links labeled Perseus: will open Perseus to that word.</li>
+			</ul>
+		</section>
+		<div id="lookAhead"></div>
+		<aside class="keys">
+			<img src="Images/GreekKeys.png" alt="Greek keys illustration" width="489" height="210" />
+		</aside>
+        <script src="../GreekWordList.js"></script>
+        <script src="Script/LookupList.js"></script>
+		<script src="Script/Beta.js"></script>
+        <script src="Script/AdvancedLexicon.js"></script>
+    </body>
+</html>

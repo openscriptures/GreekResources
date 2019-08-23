@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-flat-20030114.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="41">
+	<desc>LinkTile</desc>
+	<defs>
+		<linearGradient id="across" x1="0%" y1="0%" x2="100%" y2="10%">
+			<stop stop-color="#906c48" offset="0%"/>
+			<stop stop-color="#fcfcd8" offset="50%"/>
+			<stop stop-color="#906c48" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="down" x1="0%" y1="0%" x2="10%" y2="100%">
+			<stop stop-color="#906c48" offset="0%"/>
+			<stop stop-color="#fcfcd8" offset="50%"/>
+			<stop stop-color="#906c48" offset="100%"/>
+		</linearGradient>
+		<linearGradient id="diag" x1="0%" y1="100%" x2="100%" y2="0%">
+			<stop stop-color="#906c48" offset="0%"/>
+			<stop stop-color="#fcfcd8" offset="50%"/>
+			<stop stop-color="#906c48" offset="100%"/>
+		</linearGradient>
+		<g id="link">
+			<path d="M -10.1,-57.1 A 58,58 0 0 1 37.3,-44.4" stroke="url(#across)"/>
+			<path d="M 44.4,-37.3 A 58,58 0 0 1 57.1,10.1" stroke="url(#down)"/>
+			<path d="M 54.5,19.8 A 58,58 0 0 1 19.8,54.5" stroke="url(#diag)"/>
+			<path d="M 10.1,57.1 A 58,58 0 0 1 -37.3,44.4" stroke="url(#across)"/>
+			<path d="M -44.4,37.3 A 58,58 0 0 1 -57.1,-10.1" stroke="url(#down)"/>
+			<path d="M -54.5,-19.8 A 58,58 0 0 1 -19.8,-54.5" stroke="url(#diag)"/>
+		</g>
+		<g id="tile">
+			<use xlink:href="#link" fill="none" stroke-width="8"/>
+		</g>
+		<g id="lock">
+			<use xlink:href="#tile" transform="translate(0, 0)"/>
+			<use xlink:href="#tile" transform="translate(71, 41)"/>
+			<use xlink:href="#tile" transform="translate(142, 0)"/>
+			<use xlink:href="#tile" transform="translate(71, -41)"/>
+			<use xlink:href="#tile" transform="translate(0, 82)"/>
+			<use xlink:href="#tile" transform="translate(71, 123)"/>
+			<use xlink:href="#tile" transform="translate(142, 82)"/>
+		</g>
+	</defs>
+	<use xlink:href="#lock" transform="scale(0.5)"/>
+</svg>

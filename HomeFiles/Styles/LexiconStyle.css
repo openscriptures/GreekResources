@@ -1,0 +1,128 @@
+body 
+{
+	background: rgb(72, 36, 0) url(../Images/LinkTile.svg);
+	font-family: "Gentium Plus", "SBL Greek", "Palatino Linotype", Palatino, serif;
+	margin: 0;
+}
+header
+{
+	background-color: rgba(252, 216, 180, 0.8);
+	border-bottom: 1px solid rgb(72, 36, 0);
+}
+h1
+{
+	padding: 0 0 0.25em 0.5em;
+	margin: 0;
+	color: rgb(72, 36, 0);
+}
+nav
+{
+	background-color: rgba(108, 72, 36, 0.8);
+	color: rgb(252, 216, 180);
+	padding: 0 0 2px 0.5em;
+	border-bottom: 1px solid rgb(72, 36, 0);
+	box-shadow: 5px 5px 5px rgba(72, 36, 0, 0.8);
+}
+nav input#index
+{
+	text-align: left;
+	font-family: "Gentium Plus", "SBL Greek", "Palatino Linotype", serif;
+}
+nav span#link a
+{
+	color: rgb(252, 216, 180);
+	margin-left: 0.5em;
+}
+nav button
+{
+    background-color: #77250f;
+    background-image: -moz-linear-gradient(top, #77250f, #dd6d5b);
+    background-image: -webkit-linear-gradient(top, #77250f, #dd6d5b);
+    color: rgb(252, 216, 180);
+    border-radius: 4px;
+}
+nav button:hover
+{
+	background: #dd6d5b;
+    color: rgb(252, 252, 216);
+}
+section
+{
+	background-color: rgba(252, 252, 252, 0.9);
+	margin: 1em 1em 1em 15em;
+	padding: 0.5em 1em;
+	border: 1px solid rgb(72, 36, 0);
+	border-radius: 1em;
+	max-width: 32em;
+	box-shadow: 5px 5px 5px rgba(72, 36, 0, 0.8);
+	font-size: larger;
+}
+section#entry
+{
+	max-height: 490px;
+	overflow: auto;
+}
+section#entry ul.sub
+{
+	font-size: smaller;
+}
+aside.keys
+{
+	position: absolute;
+	top: 400px;
+	left: 1em;
+}
+/* Entry styles. */
+span.lemma
+{
+	font-weight: bold;
+}
+span.pos, span.strong
+{
+	font-size: smaller;
+}
+span.xlit, span.def
+{
+	font-style: italic;
+}
+/* Popup styles. */
+div#popup
+{
+    position: absolute;
+    background-color: rgb(252, 252, 252);
+    padding: 2px 4px;
+    border-radius: 4px;
+    border: 1px solid rgb(252, 216, 180);
+    box-shadow: 2px 2px 2px rgba(72, 36, 0, 0.5);
+    display: none;
+	max-width: 16em;
+}
+/* LookAhead styles. */
+div#lookAhead
+{
+    position: absolute;
+    display: none;
+	background-color: rgba(252, 252, 252, 0.9);
+    box-shadow: 4px 4px 2px rgba(64, 64, 64, 0.5);
+	max-width: 16em;
+}
+div#lookAhead ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-height: 300px;
+    overflow: auto;
+}
+div#lookAhead li
+{
+    padding: 0 0.5em;
+    border-top: 1px solid white;
+    border-bottom: 1px solid rgb(255, 238, 187);
+}
+div#lookAhead li:hover
+{
+    background-color: rgb(231, 195, 159);
+    border-bottom: 1px solid rgb(187, 138, 101);
+    cursor: pointer;
+}
